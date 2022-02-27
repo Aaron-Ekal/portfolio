@@ -140,7 +140,7 @@ h2{
     font-weight: 500;
 }
 body{
-    background: url(../image/1.jpg) no-repeat;
+    background: url(../Images/1.jpg) no-repeat;
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -149,7 +149,7 @@ body{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+.container {
     width: 80%;
     margin: 50px auto;
 }
@@ -167,12 +167,12 @@ body{
     background: #151127;
     color: white;
 }
-h1{
+.h1{
     color: white;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .container p{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .input-row{
      display: flex;
@@ -211,4 +211,63 @@ button{
     border-radius: 30px;
     margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 150px 20px 20px 20px;
+}
+.social-icon{
+    margin: 40px 10px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 110px;
+    height: 110px;
+    text-decoration: none;
+}
+.icon_inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    border-radius: 70%;
+    background: #ffffff;
+}
+.social-icon i{
+    position: relative;
+    transition: 0.3s;
+    font-size: 60px;
+    z-index: 1;
+}
+.social-icon::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    transition: 0ms;
 }
