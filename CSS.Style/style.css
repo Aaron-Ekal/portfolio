@@ -156,6 +156,7 @@ body{
 .content-box{
     background: rgb(211, 207, 207);
     display: flex;
+    border-radius: 18px;
 }
 .contact-left{
     flex-basis: 60%;
@@ -166,6 +167,7 @@ body{
     padding: 30px;
     background: rgb(153, 53, 25);
     color: white;
+    border-radius: 12px;
 }
 .container p{
     margin-bottom: 50px;
