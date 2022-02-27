@@ -324,4 +324,45 @@ tr td{
 .gmail::after{
     background: #4285F4;
 }
+.section-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(7, 6, 6);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center;
+    
+}
+.section-title span{
+    color: orangered;
+}
+#projects .projects{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+#projects .projects-info h1{
+    margin-bottom: 0px;
+    color: rgb(204, 61, 8);
+}
+#projects .projects-info h2{
+    margin-bottom: 10px;
+    color: white;
+}
+#projects .projects-info p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+}
+#projects .all-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#projects .body{
+    background: url(../Images/2.JPG);
+}
 
