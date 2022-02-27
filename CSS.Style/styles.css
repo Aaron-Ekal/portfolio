@@ -55,6 +55,7 @@ nav .menu{
     text-transform: uppercase;
     letter-spacing: .1rem;
     text-align: center;
+    
 }
 .section-title span{
     color: orangered;
@@ -66,8 +67,8 @@ nav .menu{
     padding: 70px 0;
 }
 #projects .projects-info h1{
-    margin-bottom: 10px;
-    color: orangered;
+    margin-bottom: 0px;
+    color: rgb(204, 61, 8);
 }
 #projects .projects-info h2{
     margin-bottom: 10px;
@@ -76,6 +77,7 @@ nav .menu{
 #projects .projects-info p{
     margin-bottom: 10px;
     color: black;
+    font-size: 25px;
 }
 #projects .all-projects{
     display: flex;
