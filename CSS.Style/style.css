@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    position: relative;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 48px;
+    font-weight: 650;
+    margin-left: -18px;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 9px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 9px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+    background: orangered;
+    color: #000;
+}
+.img{
+    background:url(../Images/2.JPG) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.img::before{
+    content:'' ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    text-align: center;
+}
+.center .title{
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+}
+.center .sub_title{
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+}
+.center .btns{
+    margin-top: 20px;
+}
+.center .btns button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px white solid;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+    color: white;
+    background: none;
+}
+.center .btns button:first-child:hover{
+    background: white;
+    color: black;
+}
