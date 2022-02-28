@@ -346,15 +346,21 @@ tr td{
 #projects .projects-info h1{
     margin-bottom: 0px;
     color: rgb(204, 61, 8);
+    border-left: 6px solid tomato;
+    background-color: rgb(39, 36, 36);
 }
 #projects .projects-info h2{
     margin-bottom: 10px;
     color: white;
+    border-left: 6px solid tomato;
+    background-color: rgb(39, 36, 36);
 }
 #projects .projects-info p{
     margin-bottom: 10px;
     color: white;
     font-size: 25px;
+    border-left: 6px solid tomato;
+    background-color: rgb(39, 36, 36);
 }
 #projects .all-projects{
     display: flex;
